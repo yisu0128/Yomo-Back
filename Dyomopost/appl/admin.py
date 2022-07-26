@@ -6,7 +6,7 @@ from .models import *
 
 @admin.register(User)
 class UserAdmin(admin.ModelAdmin):
-    list_display = ['id', 'username', 'password', 'email', 'school']
+    list_display = ['id', 'username', 'password', 'email']
     list_display_links = ['id', 'username']
 
 
